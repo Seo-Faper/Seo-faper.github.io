@@ -53,3 +53,4 @@ social:
 # Plugins
 gems:
   - jekyll-seo-tag
+future: true
