@@ -36,20 +36,10 @@ navigation:
     url: /examples
 
 projects:
-  - name: 내 프로젝트 1
-    description: A bash-tool to store your private data inside a git repository.
+  - name: league of legend DST
+    description: 돈스타브 투게더 모드
     link: https://sobolevn.github.io/git-secret
     image: https://github.com/sobolevn/git-secret/blob/7c9ae0b1853d4c15549027524121b9e40219fe47/images/git-secret-sm.png?raw=true
-  - name: 내 프로젝트 2
-    description: A curated list of cryptography resources and links.
-    link: https://github.com/sobolevn/awesome-cryptography
-    image: https://pbs.twimg.com/profile_images/751426570607271937/vGxpniun_400x400.jpg
-  - name: 내 프로젝트 3
-    description: Automatically creates slugs for your Ecto models.
-    link: https://github.com/sobolevn/ecto_autoslug_field
-  - name: 내 프로젝트 4
-    description: Organize Django settings into multiple files and directories. Easily override and modify settings. Use wildcards and optional settings files.
-    link: https://github.com/sobolevn/django-split-settings
 
 social:
   - service: github
