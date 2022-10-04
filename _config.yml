@@ -44,9 +44,7 @@ social:
   - service: github
     username: seo-faper
     link: https://github.com/seo-faper
-  - service: naver
-    username: dswhdcks
-    link: https://blog.naver.com/dswhdcks
+
 
 # Plugins
 gems:
