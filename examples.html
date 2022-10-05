@@ -18,11 +18,7 @@ permalink: examples
   {% for post in site.posts %}
     {% assign nth = forloop.index0 | modulo:2 %}
     <div class="media t-hackcss-media">
-    <script>
-      
-      let index = {{forloop.index0 | modulo:2}}
-      let arr = selectIndex(999,index);
-    </script>
+      <script> document.getElementsByClassName("t-hackcss-media-image").src=a[{{forloop.index0 }}]</script>
       {% if nth == 0 %}
       <div class="t-hackcss-media-shift media-left">
         <img class="t-hackcss-media-image"
