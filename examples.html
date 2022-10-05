@@ -3,7 +3,7 @@ layout: default
 permalink: examples
 ---
 
-
+<script src="default.js"></script>
 <section>
   <h1>Examples</h1>
 
@@ -14,7 +14,7 @@ permalink: examples
 
 <section>
   <h2>Posts {{%site.posts | size%}}</h2>
-  
+
   {% for post in site.posts %}
     {% assign nth = forloop.index0 | modulo:2 %}
     <div class="media t-hackcss-media">
@@ -93,4 +93,3 @@ permalink: examples
 
   </div>
 </section>
-<script src="default.js"></script>
