@@ -998,7 +998,3 @@ var a = ["GUARDIAN_ANUT.png",
 "mon_dummy_platinum.png",
 "mon_dummy_silver.png"
 ];
-
-console.log("이미지가 변경되는 스크립트를 실행");
-document.getElementsByClassName("t-hackcss-media-image")[{{forloop.index0 }}].src="https://raw.githubusercontent.com/Seo-Faper/cq_assets/master/heroes/"+a[v[{{forloop.index0 }}]]+
-"?"+ date.getTime()
