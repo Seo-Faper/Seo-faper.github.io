@@ -14,7 +14,7 @@ permalink: examples
 
 <section>
   <h2>Posts</h2>
-
+  <h3>{{%site.posts | size%}}</h3>
   {% for post in site.posts %}
     {% assign nth = forloop.index0 | modulo:2 %}
     <div class="media t-hackcss-media">
