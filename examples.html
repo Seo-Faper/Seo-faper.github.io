@@ -27,7 +27,8 @@ permalink: examples
     }
     return randomIndexArray
 };
-  let v = selectIndex(1000,{{site.posts | size}})</script>
+  let v = selectIndex(1000,{{site.posts | size}})
+  </script>
   {% for post in site.posts %}
     {% assign nth = forloop.index0 | modulo:2 %}
     <div class="media t-hackcss-media">
