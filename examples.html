@@ -38,8 +38,7 @@ permalink: examples
         <img class="t-hackcss-media-image"
              src="{{ post.image_preview }}" alt="{{ post.title }}"
              title="{{ post.title }}" />
-             <script src = "default.js">document.getElementsByClassName("t-hackcss-media-image")[{{forloop.index0 }}].src="https://raw.githubusercontent.com/Seo-Faper/cq_assets/master/heroes/"+a[v[{{forloop.index0 }}]]</script>
-      </div>
+                   </div>
       
       {% endif %}
 
@@ -71,6 +70,7 @@ permalink: examples
       </div>
       {% endif %}
     </div>
+    <script src = "default.js">document.getElementsByClassName("t-hackcss-media-image")[{{forloop.index0 }}].src="https://raw.githubusercontent.com/Seo-Faper/cq_assets/master/heroes/"+a[v[{{forloop.index0 }}]]</script>
   {% endfor %}
 </section>
 
