@@ -1,4 +1,4 @@
-["GUARDIAN_ANUT.png",
+let a = ["GUARDIAN_ANUT.png",
 "GUARDIAN_AUBREY.png",
 "GUARDIAN_BELLA.png",
 "GUARDIAN_DIONNE.png",
