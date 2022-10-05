@@ -14,17 +14,20 @@ permalink: examples
 
 <section>
   <h2>Posts {{%site.posts | size%}}</h2>
-
+  <script src="default.js">let v = selectIndex(1000,{{site.posts | size}})</script>
   {% for post in site.posts %}
     {% assign nth = forloop.index0 | modulo:2 %}
     <div class="media t-hackcss-media">
-      <script src = "default.js"> document.getElementsByClassName("t-hackcss-media-image").src=a[{{forloop.index0 }}]</script>
+
       {% if nth == 0 %}
       <div class="t-hackcss-media-shift media-left">
         <img class="t-hackcss-media-image"
              src="{{ post.image_preview }}" alt="{{ post.title }}"
              title="{{ post.title }}" />
       </div>
+      <script src = "default.js"> 
+
+      document.getElementsByClassName("t-hackcss-media-image").src=a[v[{{forloop.index0 }}]]</script>
       {% endif %}
 
       <div class="media-body">
