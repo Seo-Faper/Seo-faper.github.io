@@ -6,8 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Seo-faper BLOG
-description: seo-faper blog
+title: The Duality of technology
+description: seo-faper's blog
 repository: https://github.com/Seo-Faper/seo-faper.github.io
 baseurl: / # the subpath of your site, e.g. /blog
 url: https://seo-faper.github.io # the base hostname & protocol for your site
