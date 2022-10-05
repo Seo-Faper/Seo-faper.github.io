@@ -20,7 +20,7 @@ permalink: examples
     <div class="media t-hackcss-media">
     <script>
       
-      let index = {nth}
+      let index = {{forloop.index0 | modulo:2}}
       let arr = selectIndex(999,index);
     </script>
       {% if nth == 0 %}
