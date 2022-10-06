@@ -77,7 +77,9 @@ permalink: examples
   {% endfor %}
 </section>
 <script src = "default.js">
+
   for(var i = 0; i<{{%site.posts | size%}}; i++){
+    alert(a[v[i]])
     document.getElementsById("img-"+i).src= "https://raw.githubusercontent.com/Seo-Faper/cq_assets/master/heroes/"+a[v[i]]+
 "?"+ date.getTime()
   }
