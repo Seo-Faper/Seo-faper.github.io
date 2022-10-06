@@ -27,7 +27,6 @@ permalink: examples
     return randomIndexArray
 };
   let v = selectIndex(1000,{{site.posts | size}})
-  alert(v);
   var date = new Date();
   </script>
   {% for post in site.posts %}
@@ -79,7 +78,6 @@ permalink: examples
 <script src = "default.js"></script>
 <script>
   for(var i = 0; i<{{%site.posts | size%}}; i++){
-    alert(a[v[i]])
     document.getElementById("img-"+i).src= "https://raw.githubusercontent.com/Seo-Faper/cq_assets/master/heroes/"+a[v[i]]+
 "?"+ date.getTime()
   }
