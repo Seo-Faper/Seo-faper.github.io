@@ -15,3 +15,8 @@ image_preview: https://raw.githubusercontent.com/Seo-Faper/cq_assets/master/hero
 # _post에 쓴 글이 보이지 않을 때
 
 `future: true` 를 _config.yml에 추가
+
+# 자바스크립트가 jekyll에서 먹지 않을 시
+
+`<script src="a.js"></scrpit>`를 선언 하고 그 안에 자바스크립트를 넣지 말고
+아래에 새로운 `<script></script>` 태그를 만들고 그 안에서 스크립트를 짤 것  
