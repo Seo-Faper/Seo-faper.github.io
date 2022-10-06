@@ -13,6 +13,6 @@ image_preview: https://raw.githubusercontent.com/Seo-Faper/cq_assets/master/hero
 
 ## 구상 
 
-플레이어가 사망 시 사망한 몬스터 초상화 뜨면서 롤 음성이 나오는 것
+플레이어가 사망 시 사망한 플레이어와 죽인 몬스터의 초상화 뜨면서 롤 음성이 나오는 것
 
 
