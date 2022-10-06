@@ -3,7 +3,6 @@ layout: default
 permalink: examples
 ---
 
-<script>alert(-1)</script>
 <section>
   <h1>Examples</h1>
 
@@ -38,7 +37,8 @@ permalink: examples
       <div class="t-hackcss-media-shift media-left">
         <img class="t-hackcss-media-image"
              src="{{ post.image_preview }}" alt="{{ post.title }}"
-             title="{{ post.title }}" />
+             title="{{ post.title }}" 
+             id = "img-{{forloop.index0}}"/>
                    </div>
       
       {% endif %}
@@ -67,20 +67,21 @@ permalink: examples
         <img class="t-hackcss-media-image"
              src="{{ post.image_preview }}" alt="{{ post.title }}"
              style="transform: scaleX(-1)"
-             title="{{ post.title }}" />
+             title="{{ post.title }}" 
+             id = "img-{{forloop.index0}}"
+             />
       </div>
       {% endif %}
     </div>
-    <script src = "default.js">
-       async function loadImg(){
-        console.log("이미지가 변경되는 스크립트를 실행");
-        document.getElementsByClassName("t-hackcss-media-image")[{{forloop.index0 }}].src= await "https://raw.githubusercontent.com/Seo-Faper/cq_assets/master/heroes/"+a[v[{{forloop.index0 }}]]+
-    "?"+ date.getTime()
-       }
-</script>
   {% endfor %}
 </section>
+<script src = "default.js">
+  for(var a = 0; i<{{%site.posts | size%}}; i++){
+    document.getElementsById("img-"+i).src= "https://raw.githubusercontent.com/Seo-Faper/cq_assets/master/heroes/"+a[v[{{forloop.index0 }}]]+
+"?"+ date.getTime()
+  }
 
+</script>
 <section>
 
   <h2>Projects</h2>
