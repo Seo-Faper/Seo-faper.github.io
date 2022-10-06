@@ -56,5 +56,5 @@ tex Editor <a herf="https://ko.overleaf.com/" target='_blank' >(link)</a>
 - 돈스타브 캐릭터 초상화
 - 돈스타브 몬스터 초상화
 
-<img src="../img/23.JPG">
+<img src="https://raw.githubusercontent.com/Seo-Faper/seo-faper.github.io/main/img/23.JPG">
 대충 이런 느낌
