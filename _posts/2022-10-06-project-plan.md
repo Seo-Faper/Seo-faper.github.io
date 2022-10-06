@@ -55,3 +55,6 @@ tex Editor <a herf="https://ko.overleaf.com/" target='_blank' >(link)</a>
 - 롤 적 처치 시 뜨는 모양 누끼딴 이미지 필요 (초상화만 비워둔 이미지)
 - 돈스타브 캐릭터 초상화
 - 돈스타브 몬스터 초상화
+
+<img src="../img/23.JPG">
+대충 이런 느낌
