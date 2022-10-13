@@ -58,3 +58,13 @@ tex Editor <a herf="https://ko.overleaf.com/" target='_blank' >(link)</a>
 
 <img src="https://raw.githubusercontent.com/Seo-Faper/seo-faper.github.io/main/img/23.JPG" width="100%">
 대충 이런 느낌
+
+### 2022-10-13 중간 점검
+
+- 기본적인 돈스타브 투게더 모드 구조 확인 
+
+- 비슷한 UI를 건드는 모드 4건 정도 찾아놈
+- 왼쪽 하단이나 오른쪽 하단에 새로운 임의의 이미지 버튼을 만드는 모드 발견
+- 그 이미지를 중앙 상단으로 올리는 방법을 찾아야함
+
+- 사망 시 메세지를 바꾸는 모드 찾아야함
