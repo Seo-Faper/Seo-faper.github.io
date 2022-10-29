@@ -29,8 +29,8 @@ email: dswhdcks@naver.com
 navigation:
   - text: Home
     url: /
-  - text: Docs
-    url: /docs
+  - text: Portfolio
+    url: /portfolio
   - text: Examples
     url: /examples
 
