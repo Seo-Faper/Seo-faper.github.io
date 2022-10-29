@@ -31,8 +31,8 @@ navigation:
     url: /
   - text: Portfolio
     url: /portfolio
-  - text: Examples
-    url: /examples
+  - text: Posts
+    url: /posts
 
 projects:
   - name: league of legend DST
