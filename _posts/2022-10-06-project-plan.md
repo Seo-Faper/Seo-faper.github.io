@@ -37,7 +37,7 @@ tex Editor <a herf="https://ko.overleaf.com/" target='_blank' >(link)</a>
 
 ### 목표 개발 기간 
 
-~ 2022-10-30
+~ 2022-12-31
 
 ### 세부 개발 계획
 
