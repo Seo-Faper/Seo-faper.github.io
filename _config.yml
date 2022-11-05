@@ -45,8 +45,14 @@ projects:
     description: 돈스타브 투게더 모드
     link: https://sobolevn.github.io/git-secret
     image: https://github.com/sobolevn/git-secret/blob/7c9ae0b1853d4c15549027524121b9e40219fe47/images/git-secret-sm.png?raw=true
+
   - name: Random DICE defense Game 
     description: 디팬스 게임 (랜덤 다이스) 웹 버전 
+    link: https://sobolevn.github.io/git-secret
+    image: https://github.com/sobolevn/git-secret/blob/7c9ae0b1853d4c15549027524121b9e40219fe47/images/git-secret-sm.png?raw=true
+
+  - name: Nonogram for React
+    description: 네모네모로직을 플레이 할 수 있는 웹페이지
     link: https://sobolevn.github.io/git-secret
     image: https://github.com/sobolevn/git-secret/blob/7c9ae0b1853d4c15549027524121b9e40219fe47/images/git-secret-sm.png?raw=true
 
