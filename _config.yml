@@ -33,8 +33,12 @@ navigation:
     url: /portfolio
   - text: Posts
     url: /posts
+  - text: Projects
+    url: /projects
   - text: Algorithm
     url: /algorithm
+  - text: Infosec
+    url: /infosec
 
 projects:
   - name: league of legend DST
