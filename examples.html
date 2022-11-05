@@ -78,7 +78,8 @@ permalink: posts
 <script src = "default.js"></script>
 <script>
   for(var i = 0; i<{{%site.posts | size%}}; i++){
-    document.getElementById("img-"+i).src= "https://raw.githubusercontent.com/Seo-Faper/cq_assets/master/heroes/"+a[v[i]]+
+    if(a[v[i]]==undefined)document.getElementById("img-"+i).src= "https://raw.githubusercontent.com/Seo-Faper/cq_assets/master/heroes/cos_ar_7_15.png?"+ date.getTime()
+else document.getElementById("img-"+i).src= "https://raw.githubusercontent.com/Seo-Faper/cq_assets/master/heroes/"+a[v[i]]+
 "?"+ date.getTime()
   }
 
