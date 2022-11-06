@@ -12,7 +12,9 @@ body{
   &-navigation {
     padding-right: $spacing-unit;
   }
-
+  &-item{
+    padding-bottom: 5px;
+  }
   @at-root .hack &-navigation-heading {
     padding-top: 20px;
   }
