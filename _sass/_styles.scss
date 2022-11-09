@@ -7,8 +7,9 @@
 
   &-navigation {
     position: fixed;
+    width: 200px;
     @media screen and (max-width: 600px) {
-    position: relative;
+      position: relative;
     }
     padding-right: $spacing-unit;
   }
