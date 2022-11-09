@@ -6,6 +6,10 @@
   // navigation.html
 
   &-navigation {
+    position: fixed;
+    @media screen and (max-width: 600px) {
+    position: relative;
+    }
     padding-right: $spacing-unit;
   }
   &-item {
