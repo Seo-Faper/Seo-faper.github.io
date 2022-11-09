@@ -12,11 +12,16 @@ image_preview: https://raw.githubusercontent.com/Seo-Faper/cq_assets/master/hero
 자기가 커밋한 내용에 갈색깔 동그라미 누르면 특별하게 커밋의 진행과정을 볼 수 있는데
 거기서 ruby의 어디 문법이 잘못되었는지 확인 해 보면 된다.
 
-# _post에 쓴 글이 보이지 않을 때
+# \_post에 쓴 글이 보이지 않을 때
 
-`future: true` 를 _config.yml에 추가
+`future: true` 를 \_config.yml에 추가
 
 # 자바스크립트가 jekyll에서 먹지 않을 시
 
 `<script src="a.js"></scrpit>`를 선언 하고 그 안에 자바스크립트를 넣지 말고
-아래에 새로운 `<script></script>` 태그를 만들고 그 안에서 스크립트를 짤 것  
+아래에 새로운 `<script></script>` 태그를 만들고 그 안에서 스크립트를 짤 것
+
+# jekyll에서 이미지가 보이지 않을 시
+
+`document.getElementById("img-"+i).src= "https://raw.githubusercontent.com/Seo-Faper/cq_assets/master/heroes/"+a[v[i]]+ "?"+ date.getTime()`
+이런 식으로 뒤에 `date.getTime()`을 붙여주면 이미지가 잘 변한다.
