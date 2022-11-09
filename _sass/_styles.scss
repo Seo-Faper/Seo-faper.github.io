@@ -1,14 +1,14 @@
 // This file contains custom (non hack.css) styles
 
-.t-hackcss {  // Main prefix to avoid collisions
+.t-hackcss {
+  // Main prefix to avoid collisions
 
   // navigation.html
 
   &-navigation {
-    position: sticky;
     padding-right: $spacing-unit;
   }
-  &-item{
+  &-item {
     padding-bottom: 5px;
   }
   @at-root .hack &-navigation-heading {
@@ -75,7 +75,7 @@
   }
 
   &-cards-text {
-    margin: 0
+    margin: 0;
   }
 
   &-cards-image {
