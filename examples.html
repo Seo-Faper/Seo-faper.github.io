@@ -3,93 +3,101 @@ layout: default
 permalink: posts
 ---
 
+<style>
+  img {
+    width: 100 !important;
+  }
+</style>
 <section>
   <h1>Posts</h1>
 
-  <p>
-    제가 쓴 글을 읽어 볼 수 있는 페이지 입니다.
-  </p>
+  <p>제가 쓴 글을 읽어 볼 수 있는 페이지 입니다.</p>
 </section>
 
 <section>
   <h2>게시글 {{%site.posts | size%}} 개</h2>
   <script>
-  const selectIndex = (totalIndex, selectingNumber) => {
-    let randomIndexArray = []
-    for (i=0; i<selectingNumber; i++) {   //check if there is any duplicate index
-      randomNum = Math.floor(Math.random() * totalIndex)
-      if (randomIndexArray.indexOf(randomNum) === -1) {
-        randomIndexArray.push(randomNum)
-      } else { //if the randomNum is already in the array retry
-        i--
-      }
-    }
-    return randomIndexArray
-};
-  let v = selectIndex(1000,{{site.posts | size}})
-  var date = new Date();
+      const selectIndex = (totalIndex, selectingNumber) => {
+        let randomIndexArray = []
+        for (i=0; i<selectingNumber; i++) {   //check if there is any duplicate index
+          randomNum = Math.floor(Math.random() * totalIndex)
+          if (randomIndexArray.indexOf(randomNum) === -1) {
+            randomIndexArray.push(randomNum)
+          } else { //if the randomNum is already in the array retry
+            i--
+          }
+        }
+        return randomIndexArray
+    };
+      let v = selectIndex(1000,{{site.posts | size}})
+      var date = new Date();
   </script>
-  {% for post in site.posts %}
-    {% assign nth = forloop.index0 | modulo:2 %}
-    <div class="media t-hackcss-media">
-
-      {% if nth == 0 %}
-      <div class="t-hackcss-media-shift media-left">
-        <img class="t-hackcss-media-image"
-             src="{{ post.image_preview }}" alt="{{ post.title }}"
-             title="{{ post.title }}" 
-             id = "img-{{forloop.index0}}"/>
-                   </div>
-      
-      {% endif %}
-
-      <div class="media-body">
-        <div class="media-heading">
-          <span>{{ post.date | date_to_string }} &raquo;
-            {% if post.external_url %}
-              <a href="{{ post.external_url }}" target="_blank" title="{{ project.name }}">
-                {{ post.title }}
-              </a>
-            {% else %}
-              <a href="{{ post.url | prepend: site.baseurl }}" title="{{ project.name }}">
-                {{ post.title }}
-              </a>
-            {% endif %}
-          </span>
-        </div>
-        <div class="media-content">
-          {{ post.short_description }}
-        </div>
-      </div>
-
-      {% if nth == 1 %}
-      <div class="t-hackcss-media-shift media-right">
-        <img class="t-hackcss-media-image"
-             src="{{ post.image_preview }}" alt="{{ post.title }}"
-             style="transform: scaleX(-1)"
-             title="{{ post.title }}" 
-             id = "img-{{forloop.index0}}"
-             />
-      </div>
-      {% endif %}
+  {% for post in site.posts %} {% assign nth = forloop.index0 | modulo:2 %}
+  <div class="media t-hackcss-media">
+    {% if nth == 0 %}
+    <div class="t-hackcss-media-shift media-left">
+      <img
+        class="t-hackcss-media-image"
+        src="{{ post.image_preview }}"
+        alt="{{ post.title }}"
+        title="{{ post.title }}"
+        id="img-{{forloop.index0}}"
+      />
     </div>
+
+    {% endif %}
+
+    <div class="media-body">
+      <div class="media-heading">
+        <span
+          >{{ post.date | date_to_string }} &raquo; {% if post.external_url %}
+          <a
+            href="{{ post.external_url }}"
+            target="_blank"
+            title="{{ project.name }}"
+          >
+            {{ post.title }}
+          </a>
+          {% else %}
+          <a
+            href="{{ post.url | prepend: site.baseurl }}"
+            title="{{ project.name }}"
+          >
+            {{ post.title }}
+          </a>
+          {% endif %}
+        </span>
+      </div>
+      <div class="media-content">{{ post.short_description }}</div>
+    </div>
+
+    {% if nth == 1 %}
+    <div class="t-hackcss-media-shift media-right">
+      <img
+        class="t-hackcss-media-image"
+        src="{{ post.image_preview }}"
+        alt="{{ post.title }}"
+        style="transform: scaleX(-1)"
+        title="{{ post.title }}"
+        id="img-{{forloop.index0}}"
+      />
+    </div>
+    {% endif %}
+  </div>
   {% endfor %}
 </section>
-<script src = "default.js"></script>
+<script src="default.js"></script>
 <script>
-  for(var i = 0; i<{{%site.posts | size%}}; i++){
-    if(a[v[i]]==undefined)document.getElementById("img-"+i).src= "https://raw.githubusercontent.com/Seo-Faper/cq_assets/master/heroes/cos_ar_7_15.png?"+ date.getTime()
-else document.getElementById("img-"+i).src= "https://raw.githubusercontent.com/Seo-Faper/cq_assets/master/heroes/"+a[v[i]]+
-"?"+ date.getTime()
-  }
-
+    for(var i = 0; i<{{%site.posts | size%}}; i++){
+      if(a[v[i]]==undefined)document.getElementById("img-"+i).src= "https://raw.githubusercontent.com/Seo-Faper/cq_assets/master/heroes/cos_ar_7_15.png?"+ date.getTime()
+  else document.getElementById("img-"+i).src= "https://raw.githubusercontent.com/Seo-Faper/cq_assets/master/heroes/"+a[v[i]]+
+  "?"+ date.getTime()
+    }
 </script>
 <section>
-
   <h2>Projects</h2>
 
   <div class="grid t-hackcss-cards">
-
     {% for project in site.projects %}
 
     <div class="cell -6of12 t-hackcss-cards-cell">
@@ -97,18 +105,24 @@ else document.getElementById("img-"+i).src= "https://raw.githubusercontent.com/S
         <header class="card-header">{{ project.name }}</header>
         <div class="card-content">
           <div class="inner">
-
             {% if project.image %}
-            <img src="{{ project.image }}" class="t-hackcss-cards-image"
-                 alt="{{ project.name }}"
-                 title="{{ project.name }}" />
+            <img
+              src="{{ project.image }}"
+              class="t-hackcss-cards-image"
+              alt="{{ project.name }}"
+              title="{{ project.name }}"
+            />
             {% endif %}
 
             <p class="t-hackcss-cards-text">{{ project.description }}</p>
             <p class="t-hackcss-cards-link">
-              <a href="{{ project.link }}" title="{{ project.name }}" target="_blank">
-                 {{ project.name }}
-               </a>
+              <a
+                href="{{ project.link }}"
+                title="{{ project.name }}"
+                target="_blank"
+              >
+                {{ project.name }}
+              </a>
             </p>
           </div>
         </div>
@@ -116,6 +130,5 @@ else document.getElementById("img-"+i).src= "https://raw.githubusercontent.com/S
     </div>
 
     {% endfor %}
-
   </div>
 </section>
