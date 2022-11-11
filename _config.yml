@@ -29,8 +29,8 @@ email: dswhdcks@naver.com
 navigation:
   - text: Home
     url: /
-  - text: Portfolio
-    url: /portfolio
+  - text: 삶에 도움 되는 것들
+    url: /cheatsheet
   - text: Posts
     url: /posts
   - text: Projects
