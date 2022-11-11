@@ -31,15 +31,15 @@ navigation:
     url: /
   - text: 삶에 도움 되는 것들
     url: /cheatsheet
-  - text: Posts
+  - text: 전체 글 보기
     url: /posts
-  - text: Projects
+  - text: 프로젝트
     url: /projects
-  - text: Algorithm
+  - text: 알고리즘
     url: /algorithm
-  - text: Infosec
+  - text: 정보보안
     url: /infosec
-  - text: etc
+  - text: 기타 둥둥
     url: /etc
 
 projects:
