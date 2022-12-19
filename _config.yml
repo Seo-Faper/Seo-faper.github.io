@@ -56,7 +56,7 @@ projects:
 
   - name: Nonogram for React
     description: 네모네모로직을 플레이 할 수 있는 웹페이지
-    link: https://github.com/Seo-Faper/Toy_Project_Nonogram
+    link: https://seo-faper.github.io/Toy_Project_Nonogram/
     image: https://raw.githubusercontent.com/Seo-Faper/cq_assets/master/heroes/cos_ar_7_15.png
 
 social:
