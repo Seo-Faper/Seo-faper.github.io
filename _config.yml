@@ -52,7 +52,7 @@ projects:
   - name: Project, 벌레캠프!
     description: Ren'py를 이용한 PS 비주얼 노벨
     link: https://github.com/Seo-Faper/Project_Berlekamp
-    image: https://raw.githubusercontent.com/Seo-Faper/seo-faper.github.io/main/img/renpy/Sprite-0007.PNG
+    image: https://raw.githubusercontent.com/Seo-Faper/seo-faper.github.io/main/img/renpy/girl2.png
 
   - name: Nonogram for React
     description: 네모네모로직을 플레이 할 수 있는 웹페이지
