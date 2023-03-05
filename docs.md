@@ -10,7 +10,7 @@ permalink: cheatsheet
 # Cheat Sheet 모음집
 
 - java 빠른 입출력 코드
-<script src="https://gist.github.com/Seo-Faper/abf0f37976d63e743e6616b6afe47da7.js"></script>
+
 - DFS / BFS 샘플 코드
 
 - XSS 예제 모음
