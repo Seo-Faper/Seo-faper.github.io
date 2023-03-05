@@ -9,7 +9,7 @@ layout: default
       <time datetime="{{ page.date | date_to_xmlschema }}"
             itemprop="datePublished"
             class="media-heading">
-        {{ page.date | date: "%b %-d, %Y" }}
+        {{ page.date | date: "%Y-%m-%d" }}
       </time>
 
       {% if page.author %}
