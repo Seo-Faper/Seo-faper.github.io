@@ -48,7 +48,8 @@ permalink: posts
     <div class="media-body">
       <div class="media-heading">
         <span
-          >{{ post.date | date: "%Y-%m-%d" }} &raquo; {% if post.external_url %}
+          >
+          {% if post.external_url %}
           <a
             href="{{ post.external_url }}"
             target="_blank"
@@ -67,6 +68,7 @@ permalink: posts
         </span>
       </div>
       <div class="media-content">{{ post.short_description }}</div>
+      <p>{{ post.date | date: "%Y-%m-%d" }} &raquo; </p>
     </div>
 
     {% if nth == 1 %}
