@@ -9,7 +9,7 @@ permalink: cheatsheet
 
 # Cheat Sheet 모음집
 
-- java 빠른 입출력 코드
+- [java 빠른 입출력 코드](https://gist.github.com/Seo-Faper/abf0f37976d63e743e6616b6afe47da7)
 
 - DFS / BFS 샘플 코드
 
