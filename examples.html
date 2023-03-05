@@ -45,7 +45,7 @@ permalink: posts
     <div class="media-body">
       <div class="media-heading">
         <span
-          >{{ post.date | date_to_string }} &raquo; {% if post.external_url %}
+          >{{ post.date | date: "%Y-%m-%d" }} &raquo; {% if post.external_url %}
           <a
             href="{{ post.external_url }}"
             target="_blank"
