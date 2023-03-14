@@ -19,7 +19,9 @@ h1 {
 h2 {
   font-size: 1.2rem !important;
 }
-
+pre.highlight {
+  white-space: pre-wrap !important;
+}
 // Our variables
 $spacing-unit: 10px;
 $image-size: 50px;
