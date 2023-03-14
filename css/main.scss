@@ -20,7 +20,8 @@ h2 {
   font-size: 1.2rem !important;
 }
 pre.highlight {
-  white-space: auto !important;
+  overflow: auto !important; 
+  white-space: nowrap !important;
 }
 // Our variables
 $spacing-unit: 10px;
