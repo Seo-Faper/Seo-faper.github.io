@@ -61,10 +61,10 @@ projects:
     link: https://github.com/Seo-Faper/Project_Berlekamp
     image: https://raw.githubusercontent.com/Seo-Faper/seo-faper.github.io/main/img/renpy/girl2.png
 
-  - name: Nonogram for React
-    description: 네모네모로직을 플레이 할 수 있는 웹페이지
-    link: https://seo-faper.github.io/Toy_Project_Nonogram/
-    image: https://raw.githubusercontent.com/Seo-Faper/cq_assets/master/heroes/cos_ar_7_15.png
+  - name: Get Your Hash
+    description: 해쉬값을 알아내는 사이트 
+    link: https://seo-faper.github.io/HashBr0wn/
+    image: https://raw.githubusercontent.com/Seo-Faper/HashBr0wn/main/hash/public/favicon.ico
 
   - name: 크크 위키 (작성중)
     description: 크루세이더 퀘스트 용사 등급표를 볼 수 있는 사이트
