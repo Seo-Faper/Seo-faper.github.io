@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: The Duality of technology
+title: 쫑이 하우스
 description: seo-faper's blog
 repository: https://github.com/Seo-Faper/
 baseurl: / # the subpath of your site, e.g. /blog
@@ -51,11 +51,6 @@ navigation:
     url: /etc
 
 projects:
-  - name: league of legend DST
-    description: 돈스타브 투게더 모드
-    link: https://sobolevn.github.io/git-secret
-    image: https://github.com/sobolevn/git-secret/blob/7c9ae0b1853d4c15549027524121b9e40219fe47/images/git-secret-sm.png?raw=true
-
   - name: Project, 벌레캠프!
     description: Ren'py를 이용한 PS 비주얼 노벨
     link: https://github.com/Seo-Faper/Project_Berlekamp
@@ -66,10 +61,10 @@ projects:
     link: https://seo-faper.github.io/HashBr0wn/
     image: https://raw.githubusercontent.com/Seo-Faper/HashBr0wn/main/hash/public/favicon.ico
 
-  - name: 크크 위키 (작성중)
-    description: 크루세이더 퀘스트 용사 등급표를 볼 수 있는 사이트
-    link: https://github.com/Seo-Faper/Portfolio
-    image: https://raw.githubusercontent.com/Seo-Faper/cq_assets/master/common/giftbox.png
+  # - name: 크크 위키 (작성중)
+  #   description: 크루세이더 퀘스트 용사 등급표를 볼 수 있는 사이트
+  #   link: https://github.com/Seo-Faper/Portfolio
+  #   image: https://raw.githubusercontent.com/Seo-Faper/cq_assets/master/common/giftbox.png
 
 social:
   - service: github
